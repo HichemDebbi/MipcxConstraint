@@ -1,0 +1,406 @@
+<Counterexamples>
+
+<DiagnosticPath>
+<Probability>0.04023770775438682</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=1, a=0, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>-server--station1->[loop1b]>4> 200.0>a'=1, s1'=0>}
+[s=1, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.22167443118267102</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station2>[]>1> 0.2>s2'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=0, s5=0]
+{>station5>[]>3> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=0, s5=1]
+{>-server--station5->[serve5]>3> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=1, s3=0, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.010227130946794116</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station3>[]>2> 0.2>s3'=1>}
+[s=5, a=1, s1=0, s2=0, s3=1, s4=0, s5=0]
+{>station5>[]>3> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=0, s3=1, s4=0, s5=1]
+{>-server--station5->[serve5]>3> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=0, s3=1, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.01022730311866521</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station5>[]>3> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=1]
+{>-server--station5->[serve5]>3> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.010227085821485737</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>3> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[serve5]>3> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.008316058294411843</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=1, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=1, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=0, s3=0, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.008316157197259644</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station2>[]>1> 0.2>s2'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=1, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=1, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=1, s3=0, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.008316043633764869</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station3>[]>2> 0.2>s3'=1>}
+[s=5, a=1, s1=0, s2=0, s3=1, s4=1, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=0, s3=1, s4=1, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=0, s3=1, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.00831604855312057</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station2>[]>1> 0.2>s2'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=0, s5=0]
+{>station3>[]>1> 0.2>s3'=1>}
+[s=5, a=1, s1=0, s2=1, s3=1, s4=0, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=1, s3=1, s4=0, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=1, s3=1, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.008315992877784784</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>station3>[]>1> 0.2>s3'=1>}
+[s=5, a=1, s1=1, s2=0, s3=1, s4=0, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=0, s3=1, s4=0, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=0, s3=1, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.008315935290128418</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>station2>[]>0> 0.2>s2'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=0, s5=0]
+{>station5>[]>2> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=0, s5=1]
+{>-server--station5->[serve5]>2> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=1, s3=0, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.06437001990253416</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=1, s5=0]
+{>station2>[]>0> 0.2>s2'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=1, s5=0]
+{>station5>[]>1> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=1, s5=1]
+{>-server--station5->[serve5]>1> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=1, s3=0, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.05661438249335338</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>station2>[]>0> 0.2>s2'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=0, s5=0]
+{>station3>[]>0> 0.2>s3'=1>}
+[s=5, a=1, s1=1, s2=1, s3=1, s4=0, s5=0]
+{>station5>[]>1> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=1, s3=1, s4=0, s5=1]
+{>-server--station5->[serve5]>1> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=1, s3=1, s4=0, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.016273346495497054</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=1, s5=0]
+{>station3>[]>1> 0.2>s3'=1>}
+[s=5, a=1, s1=1, s2=0, s3=1, s4=1, s5=0]
+{>station5>[]>1> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=0, s3=1, s4=1, s5=1]
+{>-server--station5->[serve5]>1> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=0, s3=1, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.016264597885287835</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station4>[]>3> 0.2>s4'=1>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=1, s5=0]
+{>station2>[]>1> 0.2>s2'=1>}
+[s=5, a=1, s1=0, s2=1, s3=0, s4=1, s5=0]
+{>station3>[]>1> 0.2>s3'=1>}
+[s=5, a=1, s1=0, s2=1, s3=1, s4=1, s5=0]
+{>station5>[]>1> 0.2>s5'=1>}
+[s=5, a=1, s1=0, s2=1, s3=1, s4=1, s5=1]
+{>-server--station5->[serve5]>1> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=0, s2=1, s3=1, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+
+<DiagnosticPath>
+<Probability>0.12432843551633627</Probability>
+<Trace>
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station5>[]>4> 0.2>s5'=1>}
+[s=1, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station1->[loop1a]>4> 200.0>s'=2, s1'=0>}
+[s=2, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station2->[loop2a]>4> 200.0>s'=3, s2'=0>}
+[s=3, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station3->[loop3a]>4> 200.0>s'=4, s3'=0>}
+[s=4, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station4->[loop4a]>4> 200.0>s'=5, s4'=0>}
+[s=5, a=0, s1=0, s2=0, s3=0, s4=0, s5=1]
+{>-server--station5->[loop5b]>4> 200.0>a'=1, s5'=0>}
+[s=5, a=1, s1=0, s2=0, s3=0, s4=0, s5=0]
+{>station1>[]>0> 0.2>s1'=1>}
+[s=5, a=1, s1=1, s2=0, s3=0, s4=0, s5=0]
+{>station2>[]>0> 0.2>s2'=1>}
+[s=5, a=1, s1=1, s2=1, s3=0, s4=0, s5=0]
+{>station3>[]>0> 0.2>s3'=1>}
+[s=5, a=1, s1=1, s2=1, s3=1, s4=0, s5=0]
+{>station4>[]>0> 0.2>s4'=1>}
+[s=5, a=1, s1=1, s2=1, s3=1, s4=1, s5=0]
+{>station5>[]>0> 0.2>s5'=1>}
+[s=5, a=1, s1=1, s2=1, s3=1, s4=1, s5=1]
+{>-server--station5->[serve5]>0> 1.0>s'=1, a'=1, s5'=0>}
+[s=1, a=1, s1=1, s2=1, s3=1, s4=1, s5=0]</Trace>
+</DiagnosticPath>
+</Counterexamples>
